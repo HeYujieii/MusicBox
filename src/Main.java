@@ -15,8 +15,10 @@ public class Main{
          * 
          * 
         */
-        
-
+        MusicBox mbox2 = new MusicBox("LOVE1440",'N', "SEVENTEEN", "JUN", "FACE THE SUN",
+         "SONG", "MUSIC", "RYHTHM");
+        System.out.println("Now playing the song again");
+        mbox2.playSong(mbox2.getSongID(),mbox2.getPremiumSong(),1);
     }
 }
 
